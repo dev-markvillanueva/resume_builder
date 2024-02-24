@@ -25,7 +25,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../images/profilepic_mj.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -77,9 +77,9 @@ export const heroData: Hero = {
         at <strong className="text-stone-100">Accenture Philippines</strong> helping optimize productivity by designing, implementing and testing new procedures.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me watching <strong className="text-stone-100">Anime</strong>,
+        reading <strong className="text-stone-100">books</strong>, or exploring beautiful{' '}
+        <strong className="text-stone-100">Philippine Islands</strong>.
       </p>
     </>
   ),
@@ -102,7 +102,7 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  profileImageSrc: profilepic,
+  profileImageSrc: profilepic_mj,
   description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
@@ -339,23 +339,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'markvillanueva.jpmap@gmail.com',
+      href: 'mailto:markvillanueva.jpmap@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Manila, Philippines',
+      href: 'https://maps.app.goo.gl/SruetL7P1szAFkWE8',
     },
     {
       type: ContactType.Instagram,
       text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      href: 'https://www.instagram.com/zupmarky/',
     },
     {
       type: ContactType.Github,
       text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      href: 'https://github.com/dev-markvillanueva',
     },
   ],
 };
@@ -364,9 +364,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/dev-markvillanueva'},
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/mjvvillanueva/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
